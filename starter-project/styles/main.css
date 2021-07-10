@@ -1,0 +1,63 @@
+
+body {
+  background: #ddd url(../images/double-bubble-dark.png) repeat;
+}
+
+/* card styles */
+
+.cards {  
+}
+
+.cards > div {
+  border: 1px solid #fff;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+/* form styles */
+
+.field {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.field > label {
+  margin-right: 10px;
+}
+
+.field > input {
+  border: solid 1px #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  flex: 1 0 auto;
+}
+
+input:focus, textarea:focus {
+  background: #eee;
+  border-radius: 5px;
+}
+
+form button {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #999;
+  padding: 0.5em 2rem;
+  margin: 1rem 0;
+  border: none;
+}
+
+.icon {
+  background-color: #fff;
+  width: 2em;
+}
+
+/* .icon-small {
+  width: 50px;
+} */
+
+.icon-plus::before {
+  content: "" url(../images/plus-circle-solid.svg);
+}

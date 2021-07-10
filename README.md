@@ -4,9 +4,9 @@
 
 _TODO_ Add time estimates to each of the top-level tasks
 
-* [ ] Create a new GitHub repo for this assessment (#.# hours)
-  * [ ] Update the README with the contents from this file
-  * [ ] Add the instruction team as collaborators (smashdevcode, WillSuggs, scertain)
+* [X] Create a new GitHub repo for this assessment (.1 hours)
+  * [X] Update the README with the contents from this file
+  * [X] Add the instruction team as collaborators (smashdevcode, WillSuggs, scertain)
 
 * [ ] Review the requirements (#.# hours)
 
@@ -16,10 +16,10 @@ _TODO_ Add time estimates to each of the top-level tasks
 
 _These steps can be done in class on Friday morning_
 
-* [ ] Design the page template (#.# hours)
+* [ ] Design the page template (1 hours)
   * What elements are in common across all pages?
 
-* [ ] Design the following pages (#.# hours)
+* [ ] Design the following pages (.2 hours)
   * [ ] Home
     * What elements will I include on my Home page?
   * [ ] Agents
