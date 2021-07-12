@@ -1,18 +1,12 @@
 
 body {
-  background: #ddd url(../images/double-bubble-dark.png) repeat;
+  background: #ddd url(../images/circle-blues.png) repeat;
 }
 
 /* card styles */
 
-.cards {  
-}
 
-.cards > div {
-  border: 1px solid #fff;
-  padding: 0.5em;
-  margin: 0.5em;
-}
+
 
 /* form styles */
 
@@ -54,10 +48,55 @@ form button {
   width: 2em;
 }
 
-/* .icon-small {
-  width: 50px;
-} */
+/* @media screen and (min-width: 768) { */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.icon-plus::before {
-  content: "" url(../images/plus-circle-solid.svg);
-}
+  .card {
+    background-color: #666;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    max-width: 270px;
+    min-width: 270px;
+    max-height: 200px;
+    min-height: 200px;
+    margin: 5px;
+    flex: 0 0 calc(33% - 10px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card > header {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card > footer {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .card > ul {
+    background-color: #666;
+    flex: 1 0 auto;
+  }
+
+  .card > main > li {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin: 1rem 0;
+  }
+
+  .card > div {
+    background-color: #666;
+    color: #fff;
+    
+    border-radius: 0 0 10px 10px;
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+  
